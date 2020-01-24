@@ -1,3 +1,4 @@
+package javacode.codes;
 
 class Params {
     public int id;

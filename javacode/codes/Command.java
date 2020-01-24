@@ -1,3 +1,4 @@
+package javacode.codes;
 
 interface ICommand {
     void execute();
