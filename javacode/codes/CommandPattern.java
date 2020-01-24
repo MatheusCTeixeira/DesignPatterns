@@ -57,10 +57,7 @@ class Invoker {
     }
 }
 
-public class Command {
-
-
-
+public class CommandPattern {
     public static void main(String args[]) {
         Executor executor = new Executor();
         CommandA btn1 = new CommandA(executor);

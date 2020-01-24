@@ -65,7 +65,7 @@ class GotoArmy extends BaseHandler {
     }
 }
 
-public class ChainOfResponsability {
+public class ChainOfResponsabilityPattern {
 
     public static void main(String args[]) {
         BaseHandler handlerChain = new ProcessMen(new ProcessWomen(new GotoArmy(null)));
